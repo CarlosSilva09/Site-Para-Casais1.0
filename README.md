@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 💖 Site-Para-Casais1.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Typescript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Available Scripts
+Um site desenvolvido com React para celebrar momentos especiais de um casal, com uma galeria automática de fotos que muda suavemente a cada poucos segundos. Projetado com carinho, ideal para eternizar memórias em um layout simples, romântico e moderno.
 
-In the project directory, you can run:
+## 🌟 Funcionalidades
 
-### `npm start`
+- Exibição automática e sequencial de fotos com transições suaves  
+- Galeria em tela cheia com efeito de fade-in/fade-out  
+- Layout responsivo e otimizado para dispositivos móveis  
+- Armazenamento de imagens na pasta `public/` para fácil carregamento  
+- Preparado para deploy no Vercel  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📷 Pré-visualização
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Acesse o site ao vivo: [https://meu-amor.vercel.app](https://meu-amor.vercel.app)
 
-### `npm test`
+## 📁 Estrutura de Arquivos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+meu-amor/
+├── public/
+│   ├── foto1.jpg ... foto12.jpg
+├── src/
+│   ├── components/
+│   │   └── Gallery.js
+│   ├── App.js
+│   ├── index.js
+│   └── Gallery.css
+```
 
-### `npm run build`
+## 🚀 Como executar localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/CarlosSilva09/Site-Para-Casais1.0
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+4. Abra o navegador em `http://localhost:3000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Deploy no Vercel
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Projeto pronto para ser publicado com um clique no [Vercel](https://vercel.com/)  
+- Basta conectar seu repositório Git e o deploy será feito automaticamente  
 
-### `npm run eject`
+## ❤️ Autor
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feito com amor por [Carlos Silva](https://www.linkedin.com/in/carlos-eduardo-borba-silva-b726a52b9)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
