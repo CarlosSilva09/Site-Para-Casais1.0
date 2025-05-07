@@ -14,7 +14,7 @@ Um site desenvolvido com React para celebrar momentos especiais de um casal, com
 
 ## 📷 Pré-visualização
 
-Acesse o site ao vivo: [https://meu-amor.vercel.app](https://meu-amor.vercel.app)
+Acesse o site ao vivo: [meu-amor-mi.netlify.app](https://meu-amor-mi.netlify.app)
 
 ## 📁 Estrutura de Arquivos
 
